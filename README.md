@@ -1,6 +1,7 @@
 # My dotfiles (omarchy debloat and customization)
 Usage:
 1. Install omarchy normally using the ISO and a bootable USB (or any method you want as long as it is a new installation).
+1.1 Connect to the internet
 2. Clone repo: 
 ```bash
 cd
