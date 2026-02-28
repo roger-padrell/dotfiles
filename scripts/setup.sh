@@ -3,7 +3,7 @@ echo "Starting setup (5 seconds to cancel)..."
 sleep 5
 
 echo "Installing dependencies..."
-yay -S --noconfirm yazi zen-browser-bin visual-studio-code-bin oh-my-posh stow ox fish
+yay -S --noconfirm yazi zen-browser-bin visual-studio-code-bin oh-my-posh ox fish
 chsh -s /usr/bin/fish
 sudo chsh -S /usr/bin/fish
 
