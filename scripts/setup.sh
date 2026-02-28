@@ -5,7 +5,7 @@ sleep 5
 echo "Installing dependencies..."
 yay -S --noconfirm yazi zen-browser-bin visual-studio-code-bin oh-my-posh ox fish
 chsh -s /usr/bin/fish
-sudo chsh -S /usr/bin/fish
+sudo chsh -s /usr/bin/fish
 
 echo "Setting theme..."
 mkdir ../.config/omarchy/themes/dark
