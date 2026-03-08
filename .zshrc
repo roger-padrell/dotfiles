@@ -52,5 +52,5 @@ eval "$(fzf --zsh)"
 
 # tmux
 if [[ -z "$TMUX" && -o interactive ]]; then
-    exec tmux
+    exec tmux new -A -s main
 fi

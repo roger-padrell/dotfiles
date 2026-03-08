@@ -17,6 +17,6 @@ fish_add_path "$HOME/.flutter/flutter/bin"
 # tmux
 if status is-interactive
     if not set -q TMUX
-        exec tmux
+        exec tmux new -A -s main
     end
 end
