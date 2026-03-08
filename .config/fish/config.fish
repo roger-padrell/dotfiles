@@ -13,3 +13,10 @@ fish_add_path "$ANDROID_HOME/platform-tools"
 
 # flutter
 fish_add_path "$HOME/.flutter/flutter/bin"
+
+# tmux
+if status is-interactive
+    if not set -q TMUX
+        exec tmux
+    end
+end

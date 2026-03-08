@@ -49,3 +49,8 @@ alias ls='ls --color'
 
 # Integrations
 eval "$(fzf --zsh)"
+
+# tmux
+if [[ -z "$TMUX" && -o interactive ]]; then
+    exec tmux
+fi
