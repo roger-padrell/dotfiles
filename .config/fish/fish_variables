@@ -1,5 +1,0 @@
-# This file contains fish universal variable definitions.
-# VERSION: 3.0
-SETUVAR __fish_initialized:4300
-SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/roger/\x2eflutter/flutter/bin\x1e/home/roger/Android/sdk/platform\x2dtools\x1e/home/roger/Android/sdk/cmdline\x2dtools/latest/bin\x1e/home/roger/\x2elocal/bin
