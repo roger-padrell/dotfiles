@@ -4,7 +4,7 @@ sleep 5
 
 echo "Installing dependencies..."
 # TODO: install dependencies
-yay -S --noconfirm yazi zen-browser-bin visual-studio-code-bin oh-my-posh ox zsh
+yay -S --noconfirm zsh ze
 chsh -s /usr/bin/zsh
 sudo chsh -s /usr/bin/zsh
 
