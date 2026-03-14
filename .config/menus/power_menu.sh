@@ -15,6 +15,6 @@ case $choice in
         hyprctl dispatch exit
         ;;
     Sleep)
-        hyprlock && systemctl suspend
+        lock-suspend.sh
         ;;
 esac
