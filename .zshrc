@@ -64,3 +64,6 @@ export ANDROID_HOME=$HOME/Android/sdk
 export ANDROID_SDK_ROOT=$HOME/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# PATH
+export PATH=$PATH:$HOME/.cargo/bin
