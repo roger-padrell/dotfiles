@@ -1,0 +1,6 @@
+[window]
+dynamic_padding = true
+
+[font]
+normal = {family = "JetBrainsMono Nerd Font"}
+size = 10
