@@ -1,6 +1,6 @@
 #!/bin/bash
 
-options="Shutdown\nReboot\nLog out\nSleep"
+options="Shutdown\nReboot\nLog out\nSleep\nScreenshot"
 
 choice=$(echo -e "$options" | walker --dmenu)
 
@@ -16,5 +16,8 @@ case $choice in
         ;;
     Sleep)
         lock-suspend.sh
+        ;;
+    Screenshot)
+        hyprshot -m window
         ;;
 esac

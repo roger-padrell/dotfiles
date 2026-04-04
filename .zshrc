@@ -46,6 +46,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias y=yazi
 
 # Integrations
 eval "$(fzf --zsh)"
@@ -56,8 +57,7 @@ if [[ -z "$TMUX" && -o interactive ]]; then
 fi
 
 # editor
-alias vi=ox
-EDITOR=ox
+EDITOR=zee
 
 # Android
 export ANDROID_HOME=$HOME/Android/sdk
@@ -67,3 +67,6 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # PATH
 export PATH=$PATH:$HOME/.cargo/bin
+
+# NVM
+source /usr/share/nvm/init-nvm.sh
