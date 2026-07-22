@@ -64,8 +64,8 @@ binds {
     Super+Down { focus-workspace-down; }
 
     // Windows+shift+arrows = directional movement
-    Super+Shift+Left { move-column-left; }
-    Super+Shift+Right { move-column-right; }
+    Super+Shift+Left { move-column-left-or-to-monitor-left; }
+    Super+Shift+Right { move-column-right-or-to-monitor-right; }
     Super+Shift+Up { move-window-to-workspace-up; }
     Super+Shift+Down { move-window-to-workspace-down; }
 
@@ -76,5 +76,8 @@ binds {
     Super+F { maximize-window-to-edges; }
 
     // App shorcuts
-    Super+Return { spawn "konsole";}
+    Super+Return { spawn "flatpak run org.kde.konsole";}
+
+    Super+L { spawn "swaylock";}
 }
+
